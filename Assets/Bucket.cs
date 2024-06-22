@@ -36,7 +36,7 @@ public class Bucket : MonoBehaviour
         {
             return;
         }
-
+        Debug.Log("FILLED");
         GameObject.FindWithTag("Master").GetComponent<Master>().ReduceWater(water_cost);
 
     }
