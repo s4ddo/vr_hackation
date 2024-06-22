@@ -6,8 +6,7 @@ public class Master : MonoBehaviour
 {
 
     // Start is called before the first frame update
-    public int water_level;
-    public 
+    public Water water;
 
     void Start()
     {
@@ -18,10 +17,5 @@ public class Master : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void ReduceWater(int amount)
-    {
-        water_level -= amount;
     }
 }

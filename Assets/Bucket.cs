@@ -8,7 +8,7 @@ public class Bucket : MonoBehaviour
     
     public int item_count = 0;
     public int item_count_max = 3;
-    public int water_cost;
+    public int water_cost = 5;
     void Start()
     {
         
@@ -37,7 +37,7 @@ public class Bucket : MonoBehaviour
             return;
         }
         Debug.Log("FILLED");
-        GameObject.FindWithTag("Master").GetComponent<Master>().ReduceWater(water_cost);
+        GameObject.FindWithTag("Master").GetComponent<Master>().water.ReduceWater(water_cost);
 
     }
     // Update is called once per frame
