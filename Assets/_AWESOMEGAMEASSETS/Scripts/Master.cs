@@ -8,6 +8,7 @@ public class Master : MonoBehaviour
     // Start is called before the first frame update
     public Water water;
 
+    public Zone current_zone;
     void Start()
     {
         
