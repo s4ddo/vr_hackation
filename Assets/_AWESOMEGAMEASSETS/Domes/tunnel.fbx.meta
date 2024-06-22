@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9c109d0a5474b494392ccb10f6a003e4
+guid: 66e7111f4dcc0ca44a445025d9e28397
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,63 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: d1dd62471843e15429de33fd295fa53f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 46872de59bab29e42a63b96158f64d73, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 6f7f6699287a23c4b8862bbb59540f07, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 2d221b03696c68942abddefd71ca10bd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: base
-    second: {fileID: 2100000, guid: 204f4e54b7ce73c4a846510fe2254def, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: base.001
-    second: {fileID: 2100000, guid: bb4b6664f83b1c34b88f43a70eb1b1db, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: base.002
-    second: {fileID: 2100000, guid: 59f26033b261c4c418b007f9ae85e4c1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: base.003
-    second: {fileID: 2100000, guid: 0a8363a4980f0a242bd7ba169d4e693d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: screen
-    second: {fileID: 2100000, guid: 6bb2b689af111184fa999fc82331dc70, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: screen.001
-    second: {fileID: 2100000, guid: c924594088f899d49ad39cc853e5d2ec, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: screen.002
-    second: {fileID: 2100000, guid: ff2dd2a5e5033894cb2d2abcab9ab83d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: screen.003
-    second: {fileID: 2100000, guid: 172526721f3d4f941b808e9f201715ab, type: 2}
+      name: Material.006
+    second: {fileID: 2100000, guid: d182e59d5878032459e056521aaaf306, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
