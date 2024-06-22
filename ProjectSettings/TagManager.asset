@@ -7,6 +7,8 @@ TagManager:
   - Anchor
   - Master
   - TaskObject
+  - Meteor
+  - Pipe
   layers:
   - Default
   - TransparentFX
