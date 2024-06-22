@@ -47,7 +47,7 @@ public class GameStartMenu : MonoBehaviour
     }
 
     public void HideAll()
-    {
+    {   
         mainMenu.SetActive(false);
         options.SetActive(false);
         about.SetActive(false);
