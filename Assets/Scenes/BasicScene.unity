@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 340321176}
   - component: {fileID: 340321175}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269,11 +269,11 @@ Transform:
   m_GameObject: {fileID: 340321173}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.52, y: -0.92, z: -4.16}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2036709494}
+  m_Father: {fileID: 1577507306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &340321175
 BoxCollider:
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c10d7c8010b42624584e8816eec030ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  water_level: 0
+  water: {fileID: 0}
 --- !u!1001 &802570201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1137,6 +1137,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 474323106938604846, guid: 7bf3472b3d04fc648ba3f9b6fdbe3f08, type: 3}
   m_PrefabInstance: {fileID: 5000571386285637846}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1577507305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577507306}
+  - component: {fileID: 1577507307}
+  m_Layer: 0
+  m_Name: WaterContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1577507306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577507305}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.94, y: -2.64, z: -4.16}
+  m_LocalScale: {x: 1, y: 5.43, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 340321174}
+  m_Father: {fileID: 2036709494}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1577507307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577507305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d59c19e4b17d84c9186e49f3235197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  water_level: 100
 --- !u!1001 &1797374863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1355,7 +1401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item_count: 0
   item_count_max: 3
-  water_cost: 0
+  water_cost: 10
 --- !u!1 &1901833556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,7 +1523,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 103.07
+  m_Intensity: 67.21
   m_Range: 10
   m_SpotAngle: 129.84064
   m_InnerSpotAngle: 121.642715
@@ -1556,7 +1602,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 340321174}
+  - {fileID: 1577507306}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2092139007
