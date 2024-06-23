@@ -8,6 +8,8 @@ public class MissionUi : MonoBehaviour
     public GameObject ui;
     public Material skybox;
     public Zone zone;
+
+    public AudioClip biome_song;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +42,16 @@ public class MissionUi : MonoBehaviour
         else
         {
             RenderSettings.skybox = skybox;
+
+
         }
+
+        if (GameObject.FindWithTag("Master").GetComponent<Master>().master_player.clip.name != biome_song.name)
+        {
+            GameObject.FindWithTag("Master").GetComponent<Master>().master_player.clip = biome_song;
+            GameObject.FindWithTag("Master").GetComponent<Master>().master_player.Play();
+        }
+
 
 
     }

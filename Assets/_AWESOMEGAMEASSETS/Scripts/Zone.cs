@@ -9,6 +9,9 @@ public class Zone : MonoBehaviour
     public List<GameObject> endings;
     public TextMeshProUGUI yield;
     public Material ending_skybox;
+    public AudioSource task_complete;
+    public AudioSource zone_complete;
+
     public int endings_done;
     void Start()
     {
@@ -24,14 +27,22 @@ public class Zone : MonoBehaviour
 
         endings[ending].SetActive(true);
         endings_done += 1;
-
+        task_complete.Play();
         if (endings_done >= endings.Count)
         {
             RenderSettings.skybox = ending_skybox;
             yield.text = "95% Yield";
             yield.color = Color.green;
+            zone_complete.Play();
         }
 
+    }
+
+    public void DisableTask(int ending)
+    {
+        Debug.Log($"DISABED{endings[ending]}");
+
+        endings[ending].SetActive(false);
     }
     // Update is called once per frame
     void Update()

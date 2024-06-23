@@ -9,6 +9,7 @@ TagManager:
   - TaskObject
   - Meteor
   - Pipe
+  - BadObject
   layers:
   - Default
   - TransparentFX
