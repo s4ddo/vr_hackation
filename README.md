@@ -4,3 +4,5 @@
 
 https://github.com/user-attachments/assets/01d5cb85-9253-45f6-b9c5-233c1abb05d0
 
+Link to hackathon page:
+https://sites.google.com/view/ivm-vr-lab/hackathon?authuser=0
